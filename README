@@ -1,16 +1,16 @@
 This program is written in Java, IDE : NetBean
 We support two types of chat:
 	Without server:
-		Clients can chat together if they know the ip and port of each other.
+		Clients can chat together if they know the ip addresses and ports of each other.
 	With server:
-		Clients want to chat must register to the chat server and receive the list of users online from that server.
+		Whenever clients want to chat, they must register to the chat server and retrieve the list of users online from that server.
 		Double click to users online from the list, you can chat with them now.
 
 The chat client also have some bonus features such as:
-	Choose font for text 
+	Choose font and size for text 
 	Send file
 	Emoticons
 
-To use it over internet, you must configure your router to open the dedicated port for clients.
+To use it over Internet, you must configure your router to open the dedicated ports for clients.
 
 Be care of using the same port at the same IP when open both server and clients in the same computer for testing purpose.
